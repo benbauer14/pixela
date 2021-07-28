@@ -44,4 +44,7 @@ pixela_update = {
 
 # response = requests.put(url="https://pixe.la/v1/users/bbauer/graphs/graph1/20210728", json=pixela_update, headers=headers)
 
+#delete a pixel
+response = requests.delete(url="https://pixe.la/v1/users/bbauer/graphs/graph1/20210728", headers=headers)
+
 print(response.text)
